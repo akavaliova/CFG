@@ -18,6 +18,11 @@ h1 {
   width: 100%;
 }
 
+.list ul {
+  display: flex;
+  background: pink;
+}
+
 .list ul li {
   list-style: none;
   margin: 42px;
@@ -40,138 +45,12 @@ a:hover {
 }
 
 
-/* .App {
-  text-align: center;
-  background-color: rgb(233, 191, 200);
-  padding-bottom: 70px;
-}
-.main-header{
-  color: rgb(107, 18, 67);
-  padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-/* .my-buttton{
-  background-color: rgb(213, 89, 145);
-  color:rgb(98, 22, 56);
-  width: 250px;
-  height: 200px;
-  font-size: 36px;
-  font-weight: 600;
-  border-radius: 10px;
-  margin-bottom: 30px;
-}
-.button__text{
-  color: rgb(107, 18, 67);
-  padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-} */
-
-.my-ClassButtton{
-  background-color: rgb(213, 89, 145);
-  color:rgb(98, 22, 56);
-  width: 250px;
-  height: 100px;
-  font-size: 36px;
-  font-weight: 600;
-  border-radius: 10px;
-  margin-bottom: 30px;
-}
-
-.my-text {
-  color:rgb(49, 6, 25);
-  width: 250px;
-  height: 100px;
-  font-size: 36px;
-  font-weight: 600;
-  border-radius: 10px;
-  margin: 0 auto 100px;
-}
-/* .my-counter{
-  color:rgb(49, 6, 25);
-  width: 250px;
-  height: 100px;
-  font-size: 36px;
-  font-weight: 600;
-  border-radius: 10px;
-  margin: 0 auto 50px;
-  border: 1px solid rgb(49, 6, 25);
-  border-radius: 15px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-.hello{
-  color:rgb(49, 6, 25);
-  width: 250px;
-  height: 100px;
-  font-size: 36px;
-  font-weight: 600;
-  border-radius: 10px;
-  margin: 0 auto 50px;
-}
-
-.my-footer {
-  color:rgb(49, 6, 25);
-  width: 250px;
-  height: 100px;
-  font-size: 36px;
-  font-weight: 600;
-  border-radius: 10px;
-  margin: 0 auto;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-p{
-  color: green;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-h2{
-  color: red;
-}
-.book{
-  color: blue;
-  text-decoration: underline;
-}
-.name{
-  color: purple;
-  font-style: italic;
-}
-.whereabout{
-  color: purple;
-  font-style: italic;
-}
-#hobby{
-  color: rgb(226, 199, 226);
-  font-style: italic;
-} */
 
 @keyframes App-logo-spin {
   from {
