@@ -1,9 +1,10 @@
 import './App.css';
 // import Button from './components/Button';
 import { BrowserRouter as Router, Route ,Link, Routes} from "react-router-dom";
-import { Home } from"./components/Home" 
-import { Contact } from"./components/Contact" 
-import { Order } from"./components/Order"
+import Home  from"./components/Home" 
+import Contact from"./components/Contact" 
+import Order from"./components/Order"
+
 
 function App() {
   return(

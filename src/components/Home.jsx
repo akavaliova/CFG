@@ -1,10 +1,17 @@
 import React from 'react'
+import HomeHeader from './HomeHeader'
+import HomeImage from './HomeImage';
+import HomeBtn from './HomeBtn';
 
 function Home() {
+      const handleClick = (x) => {
+        alert(`You will be redirected to the ${x}`)
+      }
     return (
         <div>
-            <h1>Home Page</h1>
-            <p>There is gona be some text and information!!!!!!!</p>
+            <HomeHeader />
+            <HomeImage />
+            <HomeBtn label="Order a cake" handleClick={handleClick}/>
         </div>
     )
 }
