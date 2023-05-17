@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const Button = ({label, handleClick}) =>{
     return(
-        <div>
+        <Link to='Order'>
             <button className='home__buttton' onClick={()=>handleClick('Order page')}>{label}</button>
-        </div>
+        </Link>
     )
 }
 export default Button

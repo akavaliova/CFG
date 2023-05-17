@@ -1,9 +1,10 @@
 import React from 'react'
+import ContactInfo from './ContactInfo';
 
  function Contact() {
     return (
         <div>
-            {/* <h1>Contact Page</h1> */}
+            <ContactInfo />
         </div>
     )
 }
